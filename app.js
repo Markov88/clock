@@ -1,7 +1,7 @@
 const hour = document.querySelector('#hour');
 const minutes = document.querySelector('#minutes');
 const result = document.querySelector('#result');
-
+const clockMinutes = document.querySelector('.minutes');
 const clockHour = document.querySelector('.hour');
 
 
@@ -32,9 +32,9 @@ let resultX = () => {
             angle = Math.abs(angle);
         }
 
-        clockHour.style.transform = `rotate(${hour.value * 30 +y }deg)`
-
-        result.textContent = `${ angle }`;
+        clockHour.style.transform = `rotate(${hour.value * 30 + y}deg)`
+        clockMinutes.style.transform = `rotate(${minutes.value * 6}deg)`
+        result.textContent = `${angle}`;
     }
 
 };
