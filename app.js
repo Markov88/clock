@@ -18,7 +18,7 @@ let resultX = () => {
             cornerHour = 0
         }
 
-        if (cornerHour -yad> cornerMinutes) {
+        if (cornerHour -y> cornerMinutes) {
             angle = cornerHour - cornerMinutes - y;
         } else if (cornerMinutes > cornerHour-y) {
             angle = cornerMinutes - cornerHour + y;
