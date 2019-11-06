@@ -32,7 +32,7 @@ let resultX = () => {
             angle = Math.abs(angle);
         }
 
-        clockHour.style.transform = `rotate(${ cornerHour }deg)`
+        clockHour.style.transform = `rotate(${hour.value * 30 +y }deg)`
 
         result.textContent = `${ angle }`;
     }

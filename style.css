@@ -8,13 +8,13 @@
 }
 
 .hour {
-    width:fit-content;
-    height: 100%;
+    width:3px;
+    height: 15rem;
     position: absolute;
-    top:50%;
+    top:0;
     left:50%;
-    transform: translate(50,-50%);
+    transform: translate(0%,-50%);
     
-    color:black;
+    background:black;
      
 }
